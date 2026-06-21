@@ -2,9 +2,9 @@
 
 A modern self-assessment platform that helps developers evaluate their interview readiness through role-specific questions, answer evaluation, skill scoring, and progress tracking.
 
-Features
+## Features
 
-Generate interview questions based on:
+- Generate interview questions based on:
 Python Developer
 Data Scientist
 MERN Developer
@@ -12,7 +12,7 @@ Frontend Developer
 Backend Developer
 AI/ML Engineer
 Answer Evaluation
-Concept match scoring
+- Concept match scoring
 Automatic star rating (1–5)
 Covered concepts detection
 Missing concepts analysis
