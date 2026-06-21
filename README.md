@@ -3,6 +3,7 @@
 A modern self-assessment platform that helps developers evaluate their interview readiness through role-specific questions, answer evaluation, skill scoring, and progress tracking.
 
 Features
+
 Generate interview questions based on:
 Python Developer
 Data Scientist
