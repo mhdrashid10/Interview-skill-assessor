@@ -179,7 +179,7 @@ function EvaluationResult({ result, manualStars, onStarChange }) {
 
 // ─── Main App ─────────────────────────────────────────────────────────────────
 function App() {
-  const creatorEmail = "rashidpk.mohammed@gmail.com";
+  const creatorEmail = "mhmdrshid9@gmail.com";
 
   const [role, setRole]                   = useState('python');
   const [difficulty, setDifficulty]       = useState('intermediate');
