@@ -264,7 +264,7 @@ function App() {
     if (!generatedQuestions.length) return;
     let text = `### Interview Practice: ${ROLE_LABELS[role]} (${DIFFICULTY_LABELS[difficulty]})\n`;
     text += `Candidate: Mohammed Rashid PK | ${creatorEmail}\n`;
-    text += `Built for Digital Heroes (https://digitalheroesco.com)\n\n`;
+    
 
     generatedQuestions.forEach((q, idx) => {
       text += `${idx + 1}. Q: ${q.question}\n`;
@@ -301,7 +301,7 @@ function App() {
     doc.setFontSize(9);
     doc.setTextColor(100, 116, 139);
     doc.text(`Candidate: Mohammed Rashid PK (${creatorEmail})`, 20, y); y += 5;
-    doc.text("Built for Digital Heroes - https://digitalheroesco.com", 20, y); y += 5;
+    
 
     doc.setDrawColor(226, 232, 240);
     doc.line(20, y, 190, y); y += 7;
@@ -583,12 +583,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container footer-content">
-          <p>© {new Date().getFullYear()} Interview Question Generator. Created by <strong>Mohammed Rashid PK</strong>.</p>
-          <div className="footer-links">
-            <a href={`mailto:${creatorEmail}`} className="footer-link">Contact</a>
-            <span style={{ color: 'var(--text-muted)' }}>•</span>
-            <a href="https://digitalheroesco.com" target="_blank" rel="noopener noreferrer" className="footer-link">Digital Heroes</a>
-          </div>
+          <p>© {new Date().getFullYear()} Interview Question Generator</p>
         </div>
       </footer>
 
