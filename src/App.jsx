@@ -376,9 +376,6 @@ function App() {
             <span className="logo-text">Digital Interview Gen</span>
           </div>
           <div className="header-right">
-            <a href="https://digitalheroesco.com" target="_blank" rel="noopener noreferrer" className="digital-heroes-btn">
-              Built for Digital Heroes <ArrowUpRight size={16} />
-            </a>
             <button onClick={() => setDarkMode(!darkMode)} className="theme-toggle-btn" aria-label="Toggle theme">
               {darkMode ? <Sun size={20} /> : <Moon size={20} />}
             </button>
