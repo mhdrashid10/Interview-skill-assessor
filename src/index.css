@@ -175,61 +175,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* Built for Digital Heroes Button */
-.digital-heroes-btn {
-  background: linear-gradient(135deg, var(--accent), #8b5cf6);
-  color: #ffffff;
-  border: none;
-  font-family: var(--font-heading);
-  font-size: 14px;
-  font-weight: 600;
-  padding: 10px 20px;
-  border-radius: var(--radius-md);
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition);
-  position: relative;
-  overflow: hidden;
-}
 
-.digital-heroes-btn::after {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: linear-gradient(
-    to bottom right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.1) 30%,
-    rgba(255, 255, 255, 0.3) 50%,
-    rgba(255, 255, 255, 0.1) 70%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  transform: rotate(30deg);
-  transition: 0.8s;
-  opacity: 0;
-}
-
-.digital-heroes-btn:hover::after {
-  opacity: 1;
-  left: 100%;
-  top: 100%;
-}
-
-.digital-heroes-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-glow);
-}
-
-.digital-heroes-btn:active {
-  transform: translateY(0);
-}
 
 /* Creator Profile Display */
 .creator-badge {
